@@ -245,6 +245,9 @@ ul{
     margin-left: 20px;
     display: none;
 }
+.copyright{
+    text-align: center;
+}
 /*-------media query for menu--------*/
 
 @media only screen and (max-width: 800px){
@@ -343,7 +346,9 @@ input:focus{
     flex-basis: 25%;
     cursor: pointer;
 }
-
+.copyright{
+    text-align: center;
+}
 /*--------Account page------------*/
 
 .account-page{
@@ -414,7 +419,9 @@ form a{
     transform: translateX(100px);
     transition: transform 0.5s;
 }
-
+.copyright{
+    text-align: center;
+}
 
 
 
