@@ -350,7 +350,6 @@ input:focus{
     text-align: center;
 }
 /*--------Account page------------*/
-
 .account-page{
     padding: 50px 0;
     background: radial-gradient(#fff,#5f9ea0);
@@ -422,21 +421,6 @@ form a{
 .copyright{
     text-align: center;
 }
-
-
-
-
-/*----------media query for less then 600 screen size-----------*/
-
-@media only screen and (max-width: 600px){
-    .row{
-        text-align: center;
-    }
-    .col-2,.col-3,.col-4{
-        flex-basis: 100%;
-    }
-}
-
 /*---------CArt details----------*/
 .cart-page{
     margin: 80px auto;
@@ -487,6 +471,30 @@ td:last-child{
 }
 th:last-child{
     text-align: right;
+}
+
+/*----------media query for less then 600 screen size-----------*/
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2,.col-3,.col-4{
+        flex-basis: 100%;
+    }
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 20px 0;
+    }
+    .single-product h1{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .cart-info p{
+        display: none;
+    }
 }
 
 
